@@ -8,7 +8,8 @@ export const useClientInfo = () => {
 };
 
 export const ClientInfoProvider = ({ children }) => {
-  const clientUrl = "http://localhost:5173";
+  const clientUrl =
+    "https://chattio-v2-fpz5bx9e9-nguyen-hungs-projects-dbff807a.vercel.app/";
   const [serverName] = useState("https://chattio-api-gateway.onrender.com/");
   const secret =
     "ansdijqwnd12uej128dj12d812jd128dj12dj2j2jd812jd812jd218dj218dj128dj128dj128dj218dj128dj198dhwuidhkhdbjashdasghdashdv";
