@@ -232,7 +232,6 @@ const MessageBox = ({
             alignItems: "center",
             padding: 1,
             cursor: "pointer",
-            mt: 0.5,
           }}
           onClick={() => downloadFileFromGoogleDrive(fileDetails.fileId)}
         >
