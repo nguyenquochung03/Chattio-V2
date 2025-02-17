@@ -16,12 +16,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
-app.use(
-  cors({
-    origin: "https://chattio-v2.vercel.app/",
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(
   session({
     secret: process.env.SECRET_KEY,
