@@ -195,7 +195,7 @@ export const downloadImageFile = async (url) => {
 };
 
 export const downloadFileFromGoogleDrive = async (fileId) => {
-  const url = `http://localhost:3000/api/chats/file/dowloadFileFromGoogleDrive/${fileId}`;
+  const url = `https://chattio-api-gateway.onrender.com/api/chats/file/dowloadFileFromGoogleDrive/${fileId}`;
   const link = document.createElement("a");
   link.href = url;
   link.click();
