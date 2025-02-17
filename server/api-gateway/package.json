@@ -1,11 +1,6 @@
 {
   "scripts": {
-    "start:user-service": "cd ../user-service && npm run user-service",
-    "start:friend-service": "cd ../friend-service && npm run friend-service",
-    "start:chat-service": "cd ../chat-service && npm run chat-service",
-    "start:services": "concurrently \"npm run start:user-service\" \"npm run start:friend-service\" \"npm run start:chat-service\"",
-    "start:gateway": "nodemon server.js",
-    "start": "concurrently \"npm run start:services\" \"npm run start:gateway\""
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
