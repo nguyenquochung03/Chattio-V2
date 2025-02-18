@@ -6,7 +6,6 @@ const getUsersByIds = async (userIds) => {
       `${process.env.BASE_URL}/api/users/user/search/usersIds`,
       { userIds }
     );
-    console.log(process.env.BASE_URL);
 
     if (!response.data.success) {
       return {
